@@ -1,0 +1,12 @@
+.btn{
+  display: block;
+  background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  outline: none;
+  border: none;
+  width: 200px;
+  padding: 15px;
+  border-radius: 40px;
+  color: var(--white);
+  font-weight: var(--fwBolder);
+  cursor: pointer;
+}

@@ -1,0 +1,98 @@
+.container {
+  background-image: url('../../assets/bg-intro-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 45%;
+  background-position: top right;
+  width: 100%;
+  overflow: hidden;
+}
+
+#celulares {
+  width: 100%;
+  margin-top: -100px;
+}
+
+.introduction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 0 100px 0;
+}
+
+.title {
+  color: var(--darkBlue);
+  font-size: 32px;
+  font-weight: normal;
+  width: 80%;
+  text-align: center;
+}
+
+.paragraph {
+  color: var(--grayishBlue);
+  font-size: 14px;
+  width: 80%;
+  margin: 20px 0;
+  text-align: justify;
+}
+
+@media (min-width: 800px){
+  .container {
+    background-image: url('../../assets/bg-intro-desktop.svg'); 
+    background-size: 50% 100%; 
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+  #celulares {
+    width: 40%;
+    position: relative;
+    right: -30px ;
+    top: 10px;
+  }
+  .introduction {
+    width: 80%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 80px;
+    margin: 20px 0 0 0;
+  }
+  .title{
+    width: 100%;
+    text-align: left;
+    font-size: 46px;
+  }
+  .paragraph{
+    font-size: 16px;
+    text-align: left;
+    margin: 20px 0 50px 0;
+  }
+}
+
+@media (min-width: 1300px) {
+  .container {
+    background-size: 40% 100%; 
+  }
+
+  #celulares {
+    width: 30%;
+    right: -200px ;
+    height: 550px;
+  }
+  .introduction {
+    width: 40%;
+    margin: 50px 0 100px 0;
+    padding: 0;
+  }
+  .title{
+    font-size: 56px;
+    width: 60%;
+  }
+  .paragraph{
+    font-size: 18px;
+  }
+}
