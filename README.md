@@ -4,7 +4,7 @@
 
 ## 📸 Project Preview
 
-![Easybank Full Page Screenshot](./assets/easybank-fullpage.png)  
+![Easybank Full Page Screenshot](/src/assets/easybank-fullpage.png)  
 
 ## 🚀 Project Overview
 
