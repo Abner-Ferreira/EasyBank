@@ -5,7 +5,6 @@
 ## 📸 Project Preview
 
 ![Easybank Full Page Screenshot](./easybank-fullpage.png)  
-*Add a full-page screenshot of your project here.*
 
 ## 🚀 Project Overview
 
