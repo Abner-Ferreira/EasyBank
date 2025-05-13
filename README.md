@@ -1,34 +1,50 @@
-# React + Vite
+# 🏦 Easybank - Digital Banking Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Easybank** is a modern and responsive landing page for a fictional digital banking service. This project was created as a frontend challenge and focuses on delivering a clean, professional UI with a strong emphasis on user experience and mobile-first design.
 
-Currently, two official plugins are available:
+## 📸 Project Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Easybank Full Page Screenshot](./easybank-fullpage.png)  
 
-### Primary
+## 🚀 Project Overview
 
-- Dark Blue: hsl(233, 26%, 24%)
-- Lime Green: hsl(136, 65%, 51%)
-- Bright Cyan: hsl(192, 70%, 51%)
+The Easybank landing page introduces the bank’s digital services and highlights its benefits through structured sections, custom icons, and engaging content. It simulates a real-world product site with smooth layout and responsiveness across devices.
 
-### Neutral
+## 🌟 Features
 
-- Grayish Blue: hsl(233, 8%, 62%)
-- Light Grayish Blue: hsl(220, 16%, 96%)
-- Very Light Gray: hsl(0, 0%, 98%)
-- White: hsl(0, 0%, 100%)
+- 📱 **Responsive Design**  
+  Fully responsive layout adapted for all screen sizes — mobile, tablet, and desktop.
 
-## Typography
+- 🎯 **Clean UI/UX**  
+  Minimalist, accessible interface with strong visual hierarchy and intuitive navigation.
 
-### Body Copy
+- 🔗 **Navigation Menu with Mobile Toggle**  
+  Hamburger menu for mobile and sticky navigation for desktop.
 
-- Font size: 18px
+- 📄 **Informational Sections**  
+  Includes sections like Features, About, Blog Articles, and Call-to-Action.
 
-### Font
+- 🧩 **Reusable Components**  
+  Built with React components for better organization and reusability.
 
-- Family: [Public Sans](https://fonts.google.com/specimen/Public+Sans)
-- Weights: 300, 400, 700
+## 🛠️ Technologies Used
 
-> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
+- **ReactJS** – Component-based architecture  
+- **Tailwind CSS** – Utility-first CSS framework for fast styling  
+- **Hooks** – Functional approach to managing state and effects  
+- **Mobile-First Design** – Optimized for small screens first, scaling up
+
+## 📚 Learning Goals
+
+This project was built to practice:
+- Building semantic and accessible layouts
+- Applying responsive design principles
+- Using Tailwind CSS for efficient styling
+- Creating reusable components in React
+
+## 📄 License
+
+This project is for educational and demonstrative purposes only.  
+All content and brand references are fictional and do not represent any real financial institution.
+
+---
